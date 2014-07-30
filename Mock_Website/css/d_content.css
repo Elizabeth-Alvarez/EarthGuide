@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Pre-Header/Header/Footer/Body taken from main.css */
+
+/* ------ ROW Content ------ */
+.rowContent {
+	width:100%;
+	height:361px;
+	float:left;
+	background-color:#ffffff;
+	clear:right;
+}
+/*Box containing text and images*/
+.rowContent .content_article {
+	width:750px;
+	height:321px;
+	background-color:white;
+	margin-left:20px;
+	margin-top:20px;   
+    float:left;
+	clear:right;
+}
+
+.content_article .article {
+	font-family:Arial, Verdana, Geneva, Helvetica, sans-serif; 
+	margin-left:20px;
+	margin-right:15px;
+	margin-top:40px;
+	line-height: 12px;
+}
+
+h1 {
+	font-size:13px;
+	color:grey;
+	font-weight:normal;
+}
+
+h2 {
+	font-size:13px;
+	font-weight:normal;
+	color:grey;
+}
+
+p {
+	font-size:9px;
+	font-weight:200;
+	color:black;
+}
+
+p1 {
+	color:white;
+}

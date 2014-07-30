@@ -1,0 +1,2 @@
+// JavaScript Document
+document.write('<div id="header"><a href="index_test.html"><img style="" src="images/title.png"  alt="mantle_title" width="180" height="43"/></a><div id="header_container"><br /><a href="page_1.html"><span class="resources">page_1</span></a>|<a href="page_2.html"><span class="resources">page_2</span></a>|<a href="page_3.html"><span class="resources">page_3</span></a></div></div>')

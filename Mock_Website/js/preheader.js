@@ -1,0 +1,2 @@
+// JavaScript Document
+document.write('<div id="pre-header"><form action="searchResults.html" method="get"><input class="searchbutton" type="image" value="&nbsp;" name="action" type="hidden"/><input class="textarea" type="text" size="20" name="q"/></form><a href="http://www.google.com/" target="_blank"><img style="" src="images/pre2.png"  alt="" width="30" height="30"/></a><a href="http://www.google.com" target="_blank"><img style="" src="images/pre1.png" alt="" width="30" height="30"/></a></div>') 

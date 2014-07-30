@@ -1,0 +1,247 @@
+/* CSS Document */
+/* Pre-Header/Header/Footer/Body taken from main.css */
+
+/* ------ ROW 246 ------ */
+#row246 {
+	width:100%;
+	height:246px;
+	clear:both;
+	border:none;
+	background-color:white;
+	float:left;
+}
+
+h2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color:#fff;
+	text-shadow:1px 1px 10px black; 
+	text-align:left; 
+	padding-left:5%; 
+	padding-bottom:1%;
+}
+
+#image {
+	width:398px;
+	height:246px;
+	margin-left:20px;
+	float:left;
+	clear:left;
+}
+
+#image img {
+	clear:left;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+}
+/*Spacer is 20px*/
+.spacer01 {
+	width:23px;
+	height:246px;
+	float:left;
+}
+
+.spacer01 img {
+	text-align:left;
+	margin-top:90px;
+}
+
+#content_link {
+	width:325px;
+	height:246px;
+	background-color:#0e6158;
+	margin-right:24px;
+	float:right;
+}
+
+#content_link p {
+	color:#FFFFFF;
+	font-size:9px;
+	margin-left:10px;
+}
+
+#content_link h2 {
+	color:#FFFFFF;
+	font-size:12px;
+	font-weight:bold;
+}
+
+#content_link .scroll-pane {
+	margin-left:10px;
+}
+
+#pane2 {
+	overflow:visible; 
+	height:180px; 
+	width:295px; 
+	margin-left:0px; 
+	padding-right:5px;
+}
+
+/* ------ ROW 370 ------ */
+.row370 {
+	width:100%;
+	height:370px;
+	border:none;
+	background-color:white;
+	clear:both;
+	float:left;
+}
+
+.row370 .content {
+	width:397px;
+	height:370px;
+	background-color:#0e6158;
+	margin-left:20px;
+	margin-top:0px;
+	float:left;
+	clear:both;
+}
+
+#pane1 {
+	overflow:visible; 
+	height:320px; 
+	width:370px; 
+	margin-left:0px; 
+	padding-right:5px;
+}
+
+.content .scroll-pane {
+
+}
+
+/*Spacer is 20px*/
+.spacer02 {	
+	height:370px;
+	width:23px;
+	float:left;
+	clear:right;
+}
+
+.row370 .spacer02 img {
+	margin-top:110px;  
+}
+
+.row370 .content_article {
+	width:325px;
+	height:370px;
+	text-align:left;
+	background-color:#484848;
+    float:left;
+	clear:right;
+}
+
+#pane3 {
+	overflow:visible; 
+	height:320px; 
+	width:285px; 
+	margin-left:0px; 
+	padding-right:5px;
+}
+
+
+.article {
+	font-family:Arial, Helvetica, sans-serif; 
+	margin-left:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-right:0px;
+}
+
+.title, .title a:active, .title a:visited, .title a:link {
+	color:				#FFFFFF;
+	font-size:			12px;
+	font-weight:		normal;
+	text-decoration:	none;
+	line-height:		12px;
+}
+
+/*.title a:hover  {
+	color:				#F4C365;
+	font-size:			12px;
+	font-weight:		bold;
+	text-decoration:	none;
+	line-height:		12px;
+}*/
+
+.desc {
+	color:#FFFFFF;
+	font-size:11;
+	font-style:normal;
+	font-weight:normal;
+}
+.author  {
+	color:#FFFFFF;
+	font-size:11px;
+	font-style:normal;
+	font-weight:normal;
+}
+
+.year {
+	color:#FFFFFF;
+	font-size:11px;
+	font-style:normal;
+	font-weight:normal;
+}
+
+.source {
+	color:#FFFFFF;
+	font-size:11px;
+	font-weight:normal;
+	font-style:normal;
+}
+
+.small, .small a:active, .small a:visited, .small a:link {
+	color:				#CC8808;
+	font-size:			10px;
+	font-weight:		bold;
+	text-decoration:	none;
+	line-height:		12px;
+}
+
+.small a:hover  {
+	color:				#F4C365;
+	font-size:			10px;
+	font-weight:		bold;
+	text-decoration:	none;
+	line-height:		12px;
+}
+
+.volume {
+	color:white;
+	font-size:11px;
+	font-style:normal;
+	font-weight:bold;
+}
+
+.pages {
+	color:#FFFFFF;
+	font-size:11px;
+	font-style:normal;
+	font-weight:normal;
+}
+
+.note, .note a:link, .note a:visited, .note a:active {
+	color:#FFFFFF;
+	font-size:10px;
+	font-style:normal;
+	font-weight:normal;
+}
+
+.note a:hover {
+	color:#99cc33;
+	font-size:9px;
+	font-style:normal;
+	font-weight:normal;
+}
+
+/*Top/Middle/Bottom Empty Rows*/
+#spacer_row {
+	width:790px;;
+	height:20px;
+	background-color:white;
+	float:none;
+}

@@ -1,0 +1,331 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Mock_Website</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="Scripts/AC_RunActiveContent.js" ></script>
+<script type="text/javascript" src="Scripts/AC_ActiveX.js" ></script>
+<!--Jquery scrolling-->
+<link href="css/jScrollPane.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="Scripts/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="Scripts/jScrollPane.js"></script>
+<!--Javascript for flash/mp4-->
+<!--<script type="text/javascript" src="js/qtobject.js"></script>
+<script type="text/javascript" src="js/myQTPlayer.js"></script>-->
+<script type="text/javascript" src="js/ac_quicktime.js"></script>
+<script type="text/javascript" src="js/swfobject.js"></script>
+
+<!--Script to initialize and set up flash and the alternate content-->
+<!--<script type="text/javascript">
+			swfobject.registerObject("row267_c430", "8.0.0");
+		</script>
+
+<script type="text/javascript"> 
+			swfobject.embedSWF("slideshow.swf", "alternate_media", "430", "267", "8"); 
+		</script>-->
+
+		<!--Initialises scrolling function on page.-->
+		<script type="text/javascript">
+			$(document).ready(function()
+			{
+				$('#pane2').jScrollPane({showArrows:true});
+			});
+		</script>
+        
+<!--Script for google custom search engine-->
+  <script>
+  (function() {
+    var cx = '007436303532508456243:dbgixnyjla4';
+    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+
+</head>
+<body>
+<div id="main">
+	<!--Row Pre-Header-->
+    <script language="javascript" type="text/javascript" src="js/preheader.js"></script>
+  	<div style="clear:both;"></div>
+
+	<!--Row Header-->
+    <script language="javascript" type="text/javascript" src="js/header.js"></script>
+	<div style="clear:both;"></div>
+
+	<!--Row 267-->
+	<div id="row267">
+		<div id="row267_c430">
+   		<!-- The swfobject is used to embed the swf file and recognize if the platform supports flash or not. If it is not supported then it is
+        directed to the 'alternate_media' id. The script in 'alternate_media' is used to embed a mp4 clip to the web page. There are two javascript files 
+        'myQTPlayer.js' & 'qtobject.js' that are necessary in order to have the script work. Found that mp4 was the solution since .mov did not work with
+        any style of scripts to function in the Ipad. -->   
+
+        	<div id="alternate_media">
+				<object id="videoContent" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="430" height="267">
+  					<param name="movie" value="slideshow_v2.swf" />
+  					<param name="flashvars" value="movie=slideshow_v2.mp4" />
+			<!--[if !IE]>-->
+  				<object type="application/x-shockwave-flash" data="slideshow_v2.swf" width="430" height="267">
+    				<param name="flashvars" value="movie=slideshow_v2.mp4" />
+   		 			<object type="video/mp4" data="slideshow_v2.mp4" width="430" height="267">
+      					<param name="controller" value="false" />
+                        <param name="loop" value="true" />
+      					<param name="src" value="slideshow_v2.mp4" />
+      					<param name="href" value="slideshow_v2.mp4" />
+      					<param name="target" value="myself" />
+						<!--<![endif]-->
+						<!--[if !IE]>-->
+      				</object>
+    			</object>
+			<!--<![endif]-->
+				</object>
+            </div>
+		</div><!--Ends slideshow-->
+
+		<div id="row267_c360"><!--Right tabs-->
+			<ol id="tabs">
+				<li><a href="#tab01"><span>Tab 1</span></a></li>
+				<li><a href="#tab02"><span>Tab 2</span></a></li>
+				<li><a href="#tab03"><span>Tab 3</span></a></li>
+				<li><a href="#tab04"><span>Tab 4</span></a></li>
+			</ol>
+            
+			<div class="text"> <!--Wrapper class to help position text-->
+				<div id="tab01" class="content">
+					<div id="tab1_img">
+						<img style="border:thick;" src="images/b1.png" alt="image" width="163" height="155"/>					
+					</div>
+						<p class="p_description">[B_TAB 1] <br /> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet 
+                        dolore magna aliquam erat volutpat.</p>
+					</div>
+            
+				<div id="tab02" class="content">
+					<p class="p_description">[B_TAB 2]<br /> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet 
+                    dolore magna aliquam erat volutpat.</p>
+				</div>
+		
+				<div id="tab03" class="content">
+					<p class="p_description">[B_TAB 3]<br /> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
+                    laoreet dolore magna aliquam erat volutpat.</p>
+				</div>
+        	
+				<div id="tab04" class="content">
+					<p class="p_description">[B_TAB 4]<br /> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod 
+                    tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+				</div>
+			</div><!--Ends text wrapper class and everything within it-->
+			<div style="clear:both;"></div>
+            
+            <script src="js/activatables.js" type="text/javascript"></script>
+			<script type="text/javascript">
+				activatables('tab', ['tab01', 'tab02', 'tab03', 'tab04']);
+			</script>
+		</div><!--// ends right_tab-->
+	</div><!-- //ends entire row267-->
+<div style="clear:both;"></div>
+<!--Row 394-->
+	<div id="row394">
+		<div id="row394_c118"><!--Vertical-left link list-->
+            <table style="border:none;" width="118"  text-align="center">
+				<tr>
+    				<td align="center"><a href="d_content_1.html">C1_link</a></td>
+  				</tr>
+  				<tr>
+    				<td align="center"><a href="d_content_2.html">C2_link</a></td>
+  				</tr>
+                <tr>
+    				<td align="center"><a href="d_content_3.html">C3_link</a></td>
+  				</tr>
+                <tr>
+    				<td align="center"><a href="d_content_4.html">C4_link</a></td>
+  				</tr>
+                <tr>
+    				<td align="center"><a href="d_content_5.html">C5_link</a></td>
+  				</tr>
+                <tr>
+    				<td align="center"><a href="d_content_6.html">C6_link</a></td>
+  				</tr>
+                <tr>
+    				<td align="center"><a href="d_content_7.html">C7_link</a></td>
+  				</tr>
+                 <tr>
+    				<td align="center"><a href="d_content_8.html">C8_link</a></td>
+  				</tr>
+			</table>
+        </div><!--Ends link-list-->
+                
+		<div id="row393_c445"><!--Middle content-->
+			<div id="row250_c222L">
+				<h2>D_Title</h2>
+                <br />
+				<div class="box">
+					<a href="">
+					<img style="" src="images/d1.jpg" alt="image_1" width="67" height="80" />
+					</a>
+					<p>[D1]<br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
+				</div>
+				<div style="clear:both;"></div>
+				<br />
+			
+				<div class="box">
+					<a href="">	
+						<img style="" src="images/d2.jpg" alt="image_2" width="67" height="80" />
+					</a>
+					<p>[D2]<br />Lorem ipsum dolor sit amet, consectetuer adipiscing eli.</p>
+				</div>
+				<div style="clear:both;"></div>
+				<!--<div class="wrapperMore">
+					<div class="descriptionMore">
+						<p class="description_More"><a href="" style="margin-left:160px; float:right; margin-top:-10px;">More...</a></p>
+					</div>
+				</div> --> 
+                <div id="bond_RG">
+                	<!--This spacer lies on the bottom of green container-->
+                </div>
+			</div>
+            
+			<div id="row250_c223R">
+				<h2>E_Title</h2> 
+                 <div class="interview_pics">
+                 	<div id="bond_GY">
+                    	<!--This spacer lies on the left of yellow container-->
+            		</div>
+            		<!--  Original image dimensions 75x70 -->
+					<img style="" src="images/section_d/d1.png" alt="scientist" width="65" height="64"/> 
+					<div class="text_name">rock_E1</div>
+                    
+					<img style="" src="images/section_d/d2.png" alt="scientist" width="65" height="64"/> 
+					<div class="text_name2">rock_E2</div>
+                    
+					<img style="" src="images/section_d/d3.png" alt="scientist" width="65" height="64"/>
+					<div class="text_name3">rock_E3</div>
+                    
+		      		<img style="" src="images/section_d/d4.png" alt="scientist" width="65" height="64"/>
+					<div class="text_name4">rock_E4</div>
+                    
+                    <img style="margin-left:33px;" src="images/section_d/d5.png" alt="scientist" width="65" height="64"/>
+              		<div class="text_name5">rock_E5</div>
+                    
+              		<img style="" src="images/section_d/d6.png" alt="scientist" width="65" height="64"/>
+              		<div class="text_name6">rock_E6</div>
+		      		
+			    </div>
+			<!--	<div class="wrapperMore">
+					<div class="descriptionMore">
+					  <p class="description_More"><a href="" style="margin-left:170px; float:right;margin-top:-30px;">More</a></p>
+					</div>
+			  </div>--><!--Ends wrapper class-->
+              <div id="bond_RY">
+              	<!--This spacer lies on the bottom of yellow container-->
+              </div>
+			</div>  <!--Ends interview_content-->
+ 
+ 		<div id="row144_c445"> 
+				<h2>G_Title</h2>
+				<div id="text_content01">
+					<p>Lorem ipsum dolor sit amet, consectetuer</p>
+					<p>Lorem ipsum dolor sit amet</p>
+					<div style="clear:both;"></div>
+				</div>
+						
+				<div id="text_content02">
+					<p>Lorem ipsum dolor sit amet, consectetuer</p>
+					<p>Lorem ipsum dolor sit amet</p>
+					<div style="clear:both;"></div>
+				</div>
+				
+                <div id="text_content03">
+					<p>Lorem ipsum dolor sit amet, consectetuer</p>
+					<p>Lorem ipsum dolor sit amet</p>
+					<div style="clear:both;"></div>
+				</div>
+					<!--<div class="wrapperMore">
+						<div class="descriptionMore">
+							<p class="description_More"><a href="" style="margin-left:390px; float:right; margin-top:-60px;">More...</a></p>
+						</div>
+					</div>-->
+				<div id="bond_RB">
+                	  <!--This spacer lies on the right of red container-->
+                </div>
+		</div><!--End FAQ_content-->
+	</div><!--Ends middle_content-->
+  
+			<div id="row394_c227"><!--Right scrolling panel-->
+            	<h2>F_Title</h2>
+				<div class="holder">
+                <div id="bond_YB">
+                	<!--This spacer lies on the right of yellow container-->
+            	</div>
+					<div id="pane2" class="scroll-pane">
+              				<div class="p1">
+								<a href="" target="blank">
+                                <span class="title">title of article 1</span></a><br />
+								<span class="source">source</span><br />
+								<br />
+							</div>
+							<div class="p1">
+								<a href="" target="blank">
+                                <span class="title">title of article 2</span></a><br />
+								<span class="source">source</span><br />
+								<br />
+							</div>
+							<div class="p1">
+								<a href="" target="blank">
+								<span class="title">title of article 3</span></a><br />
+								<span class="desc"></span><br />
+								<span class="source">source</span><br />
+								<br />
+							</div>
+							
+							<div class="p1">
+								<a href="" target="blank">
+								<span class="title">title of article 4</span></a><br />
+								<span class="source">source</span><br />
+								<br />
+							</div>
+							
+							<div class="p1">
+								<a href="" target="blank">
+								<span class="title">title of article 5</span></a><br />
+								<span class="source">source</span><br />
+								<br />
+							</div>
+					</div>
+				</div>  <!--Ends holder div-->
+			  	<div style="clear:both;"></div>
+                   
+                    <div id="contentImg"> 
+					  <a href="" target="blank">	
+							<img style="text-decoration:none;" src="images/e1.png" alt="image" width="186" height="128"/><br />
+					  </a>
+						<a href="" target="blank">	
+							<span class="text_name7">F_subtitle</span> 
+						</a>										
+			  		</div>
+                    
+                <!--<div class="wrapperMore">
+					<div class="descriptionMore">
+						<p class="description_More"><a href="d_content.html" style="margin-left:180px; float:right; margin-top:155px;">More...</a></p>
+                        <div style="clear:both;"></div>
+					</div>
+				</div>-->
+                    
+			</div><!--End scrolling column-->
+	</div><!--Ends Row 4-->
+<div style="clear:both;"></div>
+
+    <!--Row Footer-->
+    <script language="javascript" type="text/javascript" src="js/footer.js"></script>
+    <script src="js/update_time.js" type="text/javascript"></script> 
+	<div style="clear:left;"></div> 
+
+</div>
+</body>
+</html>
+
+
+

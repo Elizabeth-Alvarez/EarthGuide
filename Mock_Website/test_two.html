@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Mock_two</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+
+<!--Javascript for flash/mp4-->
+<script type="text/javascript" src="js/qtobject.js"></script>
+<script type="text/javascript" src="js/myQTPlayer.js"></script>
+<script type="text/javascript" src="js/swfobject2.js"></script>
+
+       <!--Script to initialize and set up flash and the alternate content-->
+<!--<script type="text/javascript">
+	swfobject.embedSWF("slideshow_v2.swf", "alternate_media", "430", "267", "8");
+</script>-->
+</head>
+<body>
+
+	<div id="alternate_media">
+    
+    
+    <object id="videoContent" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="430" height="267">
+  <param name="movie" value="slideshow_v2.swf" />
+  <param name="flashvars" value="movie=slideshow.mp4" />
+<!--[if !IE]>-->
+  <object type="application/x-shockwave-flash" data="slideshow_v2.swf" width="430" height="267">
+    <param name="flashvars" value="movie=slideshow.mp4" />
+    <object type="video/mp4" data="slideshow.mp4" width="430" height="267">
+      <param name="controller" value="false" />
+      <param name="src" value="slideshow.mp4" />
+      <param name="href" value="slideshow.mp4" />
+      <param name="target" value="myself" />
+<!--<![endif]-->
+<!--[if !IE]>-->
+      </object>
+    </object>
+<!--<![endif]-->
+</object>
+
+	</div>
+
+</body>
+</html>
+
+    
+    
+    
+ <!--   	<object width="430" height="267" data="slideshow.mp4">
+        	<param name="movie" value="slideshow.mp4" />
+        </object>-->
+
+    
+			<!--<object width="430" height="267"
+				classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B"
+				codebase="http://www.apple.com/qtactivex/qtplugin.cab">
+				<param name="src" value="slideshow_v2.mp4">
+				<param name="controller" value="false">
+				<param name="loop" value="true">
+                    
+				<embed src="slideshow_v2.mp4" type="mp4"
+				pluginpage="http://www.apple.com/quicktime/download"
+				width="430" height="267"></embed>
+			</object>-->
+
+
+
+	<!--	<object width="430" height="267"
+				classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B"
+				codebase="http://www.apple.com/qtactivex/qtplugin.cab">
+				<param name="src" value="slideshow.mp4">
+				<param name="controller" value="false">
+				<param name="loop" value="true">
+                    
+				<embed src="slideshow.mp4" type="mp4"
+				pluginpage="http://www.apple.com/quicktime/download"
+				width="430" height="267"></embed>
+			</object>
+            -->
+          <!--  <script type="text/javascript">
+				var width="430";
+				var height="267";
+				var myfile="slideshow.mp4";
+				var myid="alternate_media";
+				var autoplay = 1;
+				var autostart = 1;
+				myQTPlayer(myid,myfile,width,height,autoplay,autostart,controller,loop);
+			</script>
+            <noscript>
+            	<a href="slideshow.mp4" rel="nofollow"></a>
+            </noscript>
+            -->
+
+

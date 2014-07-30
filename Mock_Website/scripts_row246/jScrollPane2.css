@@ -1,0 +1,157 @@
+/*Default settings are found in jScrollPane.js for heights and widths of slider
+...located towards the bottom.*/
+
+
+.scroll-pane {
+	width:300px;
+	height:350px;
+	overflow:hidden;
+	background-color:transparent;
+	float:left;
+}
+
+#pane1 .scroll-pane{
+}
+
+#pane2 {
+}
+
+#pane3 {
+}
+
+.jScrollPaneContainer {
+	position:relative;
+	overflow:hidden;
+	z-index:1;
+	width:186px;
+	height:300px;
+	margin-left:30px;
+	margin-top:5px;
+}
+
+.jScrollPaneTrack {
+	position:absolute;
+	cursor:pointer;
+	right:0;
+	width:12px;
+	height:300px;
+	top:9px;
+}
+
+.jScrollPaneTrack {
+	background-color:transparent;
+	background-image:url("../images/slider_area.png") !important;
+	background-repeat:repeat-x;
+	background-attachment:scroll;
+	background-position:0px 0px;
+	background-clip:border-box;
+	background-origin:padding-box;
+	background-size: auto auto;
+}
+
+.jScrollPaneDrag {
+	background-color:transparent;
+	background-image:url("../images/slider.png") !important;
+	background-repeat:repeat-x;
+	background-attachment:scroll;
+	background-position:0px 0px;
+	background-clip:border-box;
+	background-origin:padding-box;
+	background-size: auto auto; 
+}
+
+/*slider height*/
+.jScrollPaneDrag {
+	position:absolute;
+	cursor:pointer;
+	overflow:hidden;
+	width:12px;
+	height:21px;
+	top:0px;
+}
+
+.jScrollPaneDragTop {
+	position:absolute;
+	top:0;
+	left:0;
+	width:12px;
+	overflow:hidden;
+}
+
+.jScrollPaneDragBottom {
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:12px;
+	height:6px;
+	overflow:hidden;
+}
+
+a.jScrollArrowUp {
+	background-color:transparent;
+	background-image:url("../images/slider_up.png") !important;
+	background-repeat:repeat-x;
+	background-attachment:scroll;
+	background-position:0px 0px;
+	
+	display:block;
+	position:absolute;
+	z-index:1;
+	right:0;
+	width:18px; 
+	height:12px; 
+	top:0px;
+	text-indent:-2000px;
+	overflow:hidden;
+	background-color:#0d6258;
+	background-clip:border-box;
+	background-origin:padding-box;
+	background-size: auto auto; 
+}
+
+a.jScrollArrowUp {
+	display:block;
+	position:absolute;
+	z-index:1;
+	right:0;
+	width:12px; 
+	height:8px; 
+	top:0px;
+	text-indent:-2000px;
+	overflow:hidden;
+	background-color:#0d6258;
+}
+
+a.jScrollArrowUp:hover {
+	/*background-color: #f60;*/
+}
+
+a.jScrollArrowDown {
+	background-color:transparent;
+	background-image:url("../images/slider_down.png");
+	background-repeat:repeat-x;
+	background-attachment:scroll;
+	background-position:0px 0px;
+	background-clip:border-box;
+	background-origin:padding-box;
+	background-size: auto auto; 
+}
+
+a.jScrollArrowDown {
+	display:block;
+	position:absolute;
+	z-index:1;
+	right:0;
+	width:12px; 
+	height:8px; 
+	bottom:0px;
+	text-indent:-2000px;
+	overflow:hidden;
+}
+
+a.jScrollArrowDown:hover {
+	/*background-color: #f60;*/
+}
+a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
+	/*background-color: #f00;*/
+}
